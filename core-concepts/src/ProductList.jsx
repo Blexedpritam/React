@@ -1,4 +1,6 @@
+import React from "react";
 export const ProductList = () =>{
+    const names = ["Bruce","Clark","Diana"];
 
     const products = [
         {
@@ -26,10 +28,12 @@ export const ProductList = () =>{
         const productElements =  products.filter((product) =>{return product.price > 500;})
         .map((product) => {
                 return (
-                    <>
+                    <React.Fragment key={product.id}>
+                    <div key ={product.id}>
                         <h3>{product.name}</h3>
                         <p>Price : ${product.price}</p>
-                    </>
+                    </div>
+                    </React.Fragment>
                 )
             })
 
