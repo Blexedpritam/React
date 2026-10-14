@@ -1,6 +1,6 @@
 import React from "react";
 export const ProductList = () =>{
-    const names = ["Bruce","Clark","Diana"];
+    // const names = ["Bruce","Clark","Diana"];
 
     const products = [
         {

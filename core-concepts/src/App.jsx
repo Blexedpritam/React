@@ -13,6 +13,8 @@ import { Greeting } from './Greeting';
 import { CardWrapper } from './CardWrapper';
 import { UserDetails } from './UserDetails';
 import { ProductList } from './ProductList';
+import { NameList } from './NameList';
+import { TodoList } from './TodoList';
 
 
 
@@ -20,6 +22,8 @@ function App() {
 
   return (
     <div>
+      <TodoList/>
+      <NameList/> 
       <ProductList/>
       <UserDetails name = "Pritam Kumar" isOnline={true} isPremium={true} isNewUser={true} role="admin"/>
       <UserDetails name = "Aman Kumar" isOnline={true} hideOffline={true} role="vip"/>
