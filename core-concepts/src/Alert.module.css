@@ -1,0 +1,13 @@
+.alert {
+    padding: 16px;
+    border-radius: 8px;
+     margin-bottom: 16px;
+     color: black;
+}
+.sucess {
+    background-color: aqua;
+}
+
+.error{
+    background-color: #ef4444;
+}
