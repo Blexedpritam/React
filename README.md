@@ -1,4 +1,4 @@
-# React Learning Projects
+# React Learning 
 
 A focused React learning repository designed to explore the fundamentals of modern React development through two progressively advanced mini-projects.
 
