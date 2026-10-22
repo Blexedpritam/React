@@ -18,12 +18,18 @@ import { TodoList } from './TodoList';
 import { Alert } from './Alert';
 import { NewButton } from './NewButton';
 import { CustomButton } from './CustomButton';
+import { Contact } from './Contact';
+import { NewsLetter } from './NewsLetter';
+import { Menu } from './Menu';
 
 
 function App() {
 
   return (
     <div>
+      <Menu/>
+      <Contact/>
+      <NewsLetter/>
       <CustomButton text="Like"/>
       <CustomButton text="Bookmark"/>
       <Alert>Your chnages have been saved! </Alert>
