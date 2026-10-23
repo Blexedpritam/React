@@ -1,5 +1,6 @@
 import './App.css'
 import { Counter } from './Counter'
+import { LoginCard } from './LoginCard'
 function App() {
   
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <h1>BlexedPritam is here !!</h1>
       <Counter/>
+      <LoginCard/>
     </>
   )
 }

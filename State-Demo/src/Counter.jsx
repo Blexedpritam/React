@@ -1,15 +1,22 @@
+import { useState } from "react";
+
 export const Counter = () =>{
 
-    let count = 0;
+    const [count, setCount] = useState( () =>{
+        console.log("Initial state function called");
+        return 0;
+    })
+    //currentValue , setterFunction = useState(Intial value of our state,function)
+
+    console.log("Counter Components Rendered with count :" , count);
 
     const handleClick = () => {
-        count = count + 1;
-        console.log("Counter Component rendered");
+        setCount(count + 1)
     }
 
     return (
         <>
-            <button onClick={handleClick}>Count : 0</button>
+            <button onClick={handleClick}>Count : {count}</button>
         </>
     )
 }
