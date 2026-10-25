@@ -1,12 +1,24 @@
 import { useState } from "react"
 export const SimpleCounter = () => {
-    console.log("SimpleCounter components render");
     const [count , setCount] = useState(0)
+    console.log("Render Phase : Components rendering with count = " , count);
+
 
     const handleClick = () => {
-        console.log("Before setCount , count is :" , count);
+        // console.log("Before setCount , count is :" , count);
+        // setCount(count + 1);
+        // console.log("Still in trigger phase. After setCount , count is :" , count);
+
         setCount(count + 1);
-        console.log("After setCount , count is :" , count);
+        console.log("After setCount (count +1) , count is", count)
+        setCount(count + 5);
+        console.log("After setCount (count +5) , count is", count)
+        setCount(count + 10);
+        console.log("After setCount (count +10) , count is", count)
+        
+        setTimeout(() => {
+            console.log("After 2 seconds , count is", count)
+        },2000)
 
     }
 
