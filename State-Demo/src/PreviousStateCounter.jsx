@@ -1,5 +1,5 @@
 import { useState } from "react"
-export const PrevStateCounter = () => {
+export const PreviousStateCounter = () => {
     const [count , setCount] = useState(0)
     console.log("Render Phase : Components rendering with count = " , count);
 

@@ -1,7 +1,7 @@
 import './App.css'
 import { Counter } from './Counter'
 import { LoginCard } from './LoginCard'
-import { PrevStateCounter } from './PrevStateCounter'
+import { PreviousStateCounter } from './PreviousStateCounter'
 import { SimpleCounter } from './SimpleCounter'
 import { UserDashBoard } from './UserDashBoard'
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <LoginCard/>
       <UserDashBoard/>
       <SimpleCounter/>
-      <PrevStateCounter/>
+      <PreviousStateCounter/>
     </>
   )
 }
