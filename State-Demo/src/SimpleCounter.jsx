@@ -25,7 +25,7 @@ export const SimpleCounter = () => {
     return (
         <div>
             <h2>Count :  {count}</h2>
-            <button onClick={handleClick}>Incremenet</button>
+            <button onClick={handleClick}>Simple Counter</button>
         </div>
     )
 

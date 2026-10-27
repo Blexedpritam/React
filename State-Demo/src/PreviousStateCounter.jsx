@@ -28,7 +28,7 @@ export const PreviousStateCounter = () => {
     return (
         <div>
             <h2>Count :  {count}</h2>
-            <button onClick={handleClick}>Incremenet</button>
+            <button onClick={handleClick}>Previous State Counter</button>
         </div>
     )
 

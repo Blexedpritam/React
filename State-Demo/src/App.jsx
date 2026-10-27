@@ -1,4 +1,5 @@
 import './App.css'
+import { BatchingCounter } from './BatchingCounter'
 import { Counter } from './Counter'
 import { LoginCard } from './LoginCard'
 import { PreviousStateCounter } from './PreviousStateCounter'
@@ -16,6 +17,7 @@ function App() {
       <UserDashBoard/>
       <SimpleCounter/>
       <PreviousStateCounter/>
+      <BatchingCounter/>
     </>
   )
 }
