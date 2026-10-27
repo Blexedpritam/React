@@ -5,6 +5,7 @@ import { LoginCard } from './LoginCard'
 import { PreviousStateCounter } from './PreviousStateCounter'
 import { SimpleCounter } from './SimpleCounter'
 import { UserDashBoard } from './UserDashBoard'
+import { UserProfile } from './UserPorfile'
 function App() {
   
 
@@ -18,6 +19,7 @@ function App() {
       <SimpleCounter/>
       <PreviousStateCounter/>
       <BatchingCounter/>
+      <UserProfile/>
     </>
   )
 }
