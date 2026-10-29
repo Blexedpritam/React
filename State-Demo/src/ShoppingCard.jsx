@@ -76,9 +76,9 @@ export const ProductCard = ({name , price , quantity , onAddToCard}) =>{
 
 export const CartSummary = ({cardItems , prices}) => {
 
-    const totalItems = cardItems.reactCourse + cardItems.reactCourse;
+    const totalItems = cardItems.reactCourse + cardItems.vueCourse;
 
-    const totalPrice = cardItems.reactCourse + prices.reactCourse + cardItems.vueCourse * cardItems.vueCourse;
+    const totalPrice = cardItems.reactCourse * prices.reactCourse + cardItems.vueCourse * cardItems.vueCourse;
 
 
     return (
