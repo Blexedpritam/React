@@ -3,6 +3,7 @@ import { BatchingCounter } from './BatchingCounter'
 import { Counter } from './Counter'
 import { LoginCard } from './LoginCard'
 import { PreviousStateCounter } from './PreviousStateCounter'
+import { ShoppingCard } from './ShoppingCard'
 import { SimpleCounter } from './SimpleCounter'
 import { TodoList } from './TodoList'
 import { UserDashBoard } from './UserDashBoard'
@@ -22,6 +23,7 @@ function App() {
       <BatchingCounter/>
       <UserProfile/>
       <TodoList/>
+      <ShoppingCard/>
     </>
   )
 }
