@@ -1,6 +1,7 @@
 import './App.css'
 import { BatchingCounter } from './BatchingCounter'
 import { Counter } from './Counter'
+import { CounterWithReducer } from './CounterWithReducer'
 import { LoginCard } from './LoginCard'
 import { PreviousStateCounter } from './PreviousStateCounter'
 import { ShoppingCard } from './ShoppingCard'
@@ -24,6 +25,7 @@ function App() {
       <UserProfile/>
       <TodoList/>
       <ShoppingCard/>
+      <CounterWithReducer/>
     </>
   )
 }
